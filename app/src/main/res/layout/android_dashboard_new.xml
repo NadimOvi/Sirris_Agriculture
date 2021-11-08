@@ -1042,7 +1042,7 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
     </RelativeLayout>
 
-   <!-- <softpro.naseemali.ShapedNavigationView
+    <softpro.naseemali.ShapedNavigationView
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:fitsSystemWindows="true"
@@ -1055,7 +1055,7 @@
         app:drawerShape="waves_indefinite"
         android:layout_gravity="start"
         android:id="@+id/navmenu"
-        app:menu="@menu/iconmenu" />-->
+        app:menu="@menu/iconmenu" />
 
 
 </androidx.drawerlayout.widget.DrawerLayout>
