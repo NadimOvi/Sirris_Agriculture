@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/weatherId"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:scrollbarAlwaysDrawHorizontalTrack="true"
+            android:scrollbarSize="20dp"
+            android:scrollbarStyle="insideInset"
+            android:scrollbars="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="2dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/dayShow"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Day"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/tempShow"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="Temp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/humidityShow"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="Humidity"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/moistureShow"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="Moisture"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/waterFlow"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="Water Flow"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/waterLitreShow"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="water Litre"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/waterLevelShow"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="Water Level"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/stemp"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="Soil Temp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+
+        </HorizontalScrollView>
+    </LinearLayout>
+
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>

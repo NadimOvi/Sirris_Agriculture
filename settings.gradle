@@ -1,0 +1,4 @@
+include ':shapednavigationview'
+include ':shurjopaysdk-v1.1'
+include ':app'
+rootProject.name = "My Application"

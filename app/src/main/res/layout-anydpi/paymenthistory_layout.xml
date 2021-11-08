@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:id="@+id/paymentHistoryId"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:layout_weight="3"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/dateShow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:paddingLeft="10dp"
+                android:textColor="@color/black"
+                android:text="12-02-2021 04:13:04"/>
+            <TextView
+                android:id="@+id/dateTimeShow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:text="time"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/amountShow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:textSize="17dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="100"/>
+        <TextView
+            android:id="@+id/methodShow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="17dp"
+            android:paddingRight="20dp"
+            android:textColor="@color/black"
+            android:text="Online"/>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
